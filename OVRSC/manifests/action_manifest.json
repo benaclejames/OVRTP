@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "name": "/actions/default/in/LeftThumbStickTouch",
+      "type": "boolean",
+      "requirement": "mandatory"
+    },
+    {
+      "name": "/actions/default/in/RightThumbStickTouch",
+      "type": "boolean",
+      "requirement": "mandatory"
+    }
+  ],
+  "action_sets": [
+    {
+      "name": "/actions/default",
+      "usage": "single"
+    }
+  ],
+  "default_bindings": [
+    {
+      "controller_type": "knuckles",
+      "binding_url": "bindings_knuckles.json"
+    }
+  ]
+}

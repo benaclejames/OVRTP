@@ -158,11 +158,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionHandler.cpp" />
     <ClCompile Include="ButtonState.cpp" />
     <ClCompile Include="OSC.cpp" />
     <ClCompile Include="OVRSC.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActionCallback.h" />
+    <ClInclude Include="ActionHandler.h" />
     <ClInclude Include="ButtonState.h" />
     <ClInclude Include="OSC.h" />
   </ItemGroup>
