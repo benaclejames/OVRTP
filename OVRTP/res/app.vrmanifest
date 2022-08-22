@@ -1,0 +1,19 @@
+{
+	"source": "builtin",
+	"applications": [
+		{
+			"app_key": "benaclejames.ovrtp",
+			"launch_type": "binary",
+			"binary_path_windows": "OVRTP.exe",
+			"is_dashboard_overlay": true,
+			"action_manifest_path": "./action_manifest.json",
+
+			"strings": {
+				"en_us": {
+					"name": "OVRTP",
+					"description": "OpenVR ThumbParams implementation to send touched face buttons over OSC"
+				}
+			}
+		}
+	]
+}
